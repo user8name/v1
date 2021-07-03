@@ -1,0 +1,55 @@
+.es_caption {
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+    color: #fff;
+}
+
+.es_msg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #F00;
+}
+
+.es_textbox {
+    padding-bottom: 10px;
+	
+}
+
+.es_button {
+    padding-top: 10px;
+    padding-bottom: 5px;
+	color:#fff;
+}
+
+.es_textbox_class {
+	border: 0px;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    width: 80%;outline-style:none; padding-left:10px; margin-top:10px; background-color:#164982;}
+		
+
+.es_textbox_button {
+	display: inline-block;
+	height:40px;	
+	clear: both;
+	color: #fff;
+	text-decoration: none;
+	background-color:#f39801;
+	text-align:center;
+	width:30%;
+	border:0;
+	
+}
+
+.es_textbox_button:hover {
+	background:#fff;
+	color:#333;
+	transition: background-color .3s;
+	}
+
+.es_lablebox {
+    padding-bottom: 3px;
+    color: #fff;
+}

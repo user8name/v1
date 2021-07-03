@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<title>Inquiry-Basket</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/nav.js" type="text/javascript"></script>
+<script src="js/scrolltopcontrol.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="hearder-line">
+	<div class="hearder-top">
+	<span class="adds" id="left">45-1 Ramsey Road, Shirley, NY 11967, USA</span>
+	<span class="tel" id="left">1-631-626-9181</span>
+	<span class="email" id="left"><a href="#">info@Matexcel.com</a></span>
+	<a href="#"><img src="images/f.png"></a>
+	<a href="#"><img src="images/t.png"></a>
+	<a href="#"><img src="images/g.png"></a>
+	<a href="#"><img src="images/in.png"></a>
+	</div>
+</div>
+
+<div class="site_nav">
+<div class="logo"><a href="/"><img src="images/logo.png" border="0"></a></div>
+
+<div class="top_search">
+<input name="cdkeyword" id="word" type="text" class="searchinput2" placeholder="Please input your keywords ..." value="">
+<input name="" id="btSearch" type="button" class="searchButton2">
+</div>
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.htm'>Home</a></li>
+   <li><a href=''>Products</a>
+	<ul>
+	<li><a href='#'>Metal Powder</a></li>
+	<li><a href='#'>Non-Mental & Ceramics</a></li>
+	<li><a href='#'>Microspheres</a></li>
+	<li><a href='#'>3D Cell Culture</a></li>
+	<li><a href='#'>Biodegradable Polymer</a></li>
+	<li><a href='#'>Natural Biological Materials</a></li>
+	</ul>
+	</li>
+   <li><a href='#'>Services</a></li>
+   <li><a href='#'>Resource</a></li>
+   <li><a href='#'>Support</a>
+   <ul>
+	<li><a href='#'>Inquiry</a></li>
+	<li><a href='#'>Order</a></li>
+	<li><a href='#'>FAQ</a></li>
+	</ul>
+   </li>
+   <li><a href='#'>Company</a>
+	<ul>
+   <li><a href='#'>About Us</a></li>
+   <li><a href='#'>Join Us</a></li>
+   <li><a href='#'>Contact Us</a></li>
+	</ul>
+	</li>
+</ul>
+</div>
+</div>
+
+<!--banner start css html-->
+<div class="inside_banner_about">
+<h1>Bulk Quote Inquiry</h1>
+<p>Please leave us a message if you have any questions regarding bulk quote of our 
+products on the website, we will get back to you in 24 hours.</p>
+</div>
+
+<div class="inside_nav">
+<div class="inside_nav_title">Home / <a href="#">Bulk Quote Inquiry</a></div>
+</div>
+
+<!-- RESOURCE AREA -->
+<div class="container_center inquiry_center">
+<div class="inquiry_title">Bulk Quote Inquiry</div>
+<div class="main_center_c2">
+<p class="inquiry_icon"><img src="images/inqury_icon.png"> After 60 minutes of inactivity your basket will be cleared. You can always save your basket to make sure you keep your changes.
+</p>
+<p><strong>Product information</strong></p>
+<table class="table table-bordered">
+	<tbody>
+    
+		<tr>
+			<th width="3%">&nbsp;</th>
+            <th width="15%">
+				Cat. #
+			</th>
+			<th width="69%">
+				Product Name
+			</th>
+			<th width="13%">&nbsp;</th>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>
+            <td>WHM-C022		</td>
+			<td><a href="#">Absolute Mag™ HPTA Magnetic Particles, 0.75 µm</a></td>
+			<td><img src="images/del.png"><a href="#">Delete</a></td>
+		</tr>
+		<tr>
+        <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
+			<td>WHM-C023</td>
+			<td>
+			<a href="#">Acetyl Hexapeptide-3 (or -8) </a></td>
+			<td><img src="images/del.png"><a href="#">Delete</a></td>
+		</tr>
+		<tr>
+        <td><img src="images/del.png"></td>
+			<td><a href="#">Delete selected</a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="inside_left">
+
+<form id="form-inquiry" name="form-inquiry" class="Inquiry_form" method="post" action="/inquiryinfo">
+        <ul>
+            <li>
+                <label>* Name</label>
+                <input type="text" name="I_Contact_Information-Name" class="validate[required]" placeholder="Name">
+            </li>
+
+            <li>
+                <label for="Phone number">* Phone number</label>
+                <input type="text" name="I_Contact_Information-Phone_number" class="validate[required]" placeholder="Phone number">
+            </li>
+            <li>
+                <label for="Email">* Email</label>
+                <input type="email" name="email" class="validate[required,custom[email]]" placeholder="Email">
+            </li>
+            <li>
+                <label>* Country</label>
+                <input type="text" name="I_Contact_Information-Organization" class="validate[required]" placeholder="Country">
+            </li>
+            <li style="width:100%;">
+                <label>Project Description</label>
+                <textarea name="I_Contact_Information-Project_Description" cols="40" rows="4" placeholder="Project Description"></textarea>
+            </li>
+            <li>
+                <label>Verification Code</label>
+                <input type="text" class="validate[required]" name="vcode" size="15" placeholder="Verification Code">
+                <label><span style="font-size:14px;">Please input "<b class="red">Matexcel</b>" as verification code.</span></label>
+            </li>
+            <li>
+            </li>
+			<li>
+                <button class="submit" type="submit">Send</button>
+            </li>
+        </ul>
+    </form>
+
+</div>
+
+<div class="inside_right">
+<h1>Contact Us</h1>
+<p>Phone: 1-631-624-4882</p>
+<p>Fax: 1-631-938-8221</p>
+<p>Address: 45-1 Ramsey Road, Shirley, NY 11967, USA</p>
+<p>Email: <a href="#">info@Matexcel.com</a></p>
+</div>
+
+    
+
+</div>
+
+</div>
+
+<!--bottom html-->
+<div class="container_bottom">
+    <div class="bottom_center">
+     
+    <div class="bottom_center_left">
+    <h1>Contact Us</h1>
+   	<p><img src="images/adds.png">45-1 Ramsey Road, Shirley, NY 11967, USA</a></p>
+   	<p><img src="images/tel.png">USA: 1-631-559-9269</a></p>
+    <p style="padding-left:30px;">Europe: 44-207-097-1828</p>
+   	<p><img src="images/fax.png">Fax: 1-631-938-8127</a></p>
+   	<p><img src="images/email.png">Email: <a href="#">info@Matexcel.com</a></p>
+   
+  	</div>
+    
+    <div class="bottom_center_left">
+    <h1>Subscribe</h1>    
+    <p><input name="cdkeyword" id="word" type="text" class="subinput2" placeholder="email@example.com" value=""><button class="btn" type="submit">subscribe</button></p>
+	<p>Enter your email here to subscribe Join 10 other subscribers.</p>
+     <div class="bottom-link">
+	<a href="#"><img src="images/f.png"></a>
+	<a href="#"><img src="images/t.png"></a>
+	<a href="#"><img src="images/g.png"></a>
+	<a href="#"><img src="images/in.png"></a>
+    </div>
+  	</div>
+    
+    <div class="bottom_center_left">
+    <h1>Custom Polymers</h1>
+   	<p><img src="images/bottom_img.png"></p>
+   	<p>
+    If additional product optimization is required, we can provide developmental input and custom synthesis. A large percentage of our polymer business at DURECT is devoted to the development of polymers with customized characteristics.
+    </p>
+    </div>
+    
+    <div class="bottom_center_left">
+    <h1>Products</h1>
+   	<p><a href="#">• Metal Powder</a></p>
+   	<p><a href="#">• Non-Mental & Ceramics</a></p>
+   	<p><a href="#">• Microspheres</a></p>
+   	<p><a href="#">• 3D Cell Culture</a></p>
+   	<p><a href="#">• Biodegradable Polymer</a></p>
+   	<p><a href="#">• Natural Biological Materials</a></p>
+  	</div>
+	
+    </div>
+    
+<div class="bottom_cop">Copyright © 2007 - 2018 MATEXCEL. All Rights Reserved.</div>
+    
+</div>
+
+</body>
+</html>

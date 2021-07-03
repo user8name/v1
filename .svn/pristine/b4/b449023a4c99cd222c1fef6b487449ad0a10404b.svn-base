@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<configuration date="2018/07/26" author="e.World Technology Ltd.">
+<project id="{2ACFE866-F5EE-4BCB-8DD0-02E059CEE335}" file="C:\Users\suxia\Seafile\work\aspmaker\matexcel.pmp" name="matexcel" product="PHPMaker" version="12.0" datetime="2018/07/26 10:10:01" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+<table id="wp_commentmeta" name="wp_commentmeta" caption="wp commentmeta" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_comments" name="wp_comments" caption="wp comments" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_links" name="wp_links" caption="wp links" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_options" name="wp_options" caption="wp options" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_postmeta" name="wp_postmeta" caption="wp postmeta" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_posts" name="wp_posts" caption="wp posts" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_products" name="wp_products" caption="Products" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_products_categories" name="wp_products_categories" caption="Products Categories" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_products_tasks" name="wp_products_tasks" caption="Products Tasks" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_term_relationships" name="wp_term_relationships" caption="wp term relationships" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_term_taxonomy" name="wp_term_taxonomy" caption="wp term taxonomy" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_termmeta" name="wp_termmeta" caption="wp termmeta" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_terms" name="wp_terms" caption="wp terms" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_usermeta" name="wp_usermeta" caption="wp usermeta" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_users" name="wp_users" caption="wp users" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_products_search" name="wp_products_search" caption="wp products search" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="audittrail" name="audittrail" caption="audittrail" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_db7_forms" name="wp_db7_forms" caption="wp db 7 forms" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_es_deliverreport" name="wp_es_deliverreport" caption="wp es deliverreport" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_es_emaillist" name="wp_es_emaillist" caption="wp es emaillist" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_es_notification" name="wp_es_notification" caption="wp es notification" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="wp_es_sentdetails" name="wp_es_sentdetails" caption="wp es sentdetails" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+</project></configuration>

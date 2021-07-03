@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^matexcel.com$
+RewriteRule ^(.*)$ https://www.matexcel.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^material-cell.com$
+RewriteRule ^(.*)$ http://www.material-cell.com/$1 [R=301,L]
+
+RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{HTTP_HOST} ^www.matexcel.com$
+RewriteRule ^(.*)$ https://www.matexcel.com/$1 [R=301,L]
+
+RewriteRule ^/(.*)\.php - [L,NC]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
